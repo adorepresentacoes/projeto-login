@@ -1,5 +1,50 @@
 @charset "UTF-8";
+
 /* PALETA DE CORES
 Verde: #49a09d
 Lilás: #5f2c82
 */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section#login {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.500);
+}
+
+section#login div#imagem {
+    background: #5f2c82 url(../imagens/architecture.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    display: block;
+}
+
+section#login div#formulario {
+    padding: 10px;
+    display: block;
+}
