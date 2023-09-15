@@ -39,7 +39,7 @@ section#login {
 
 section#login div#imagem {
     background: #5f2c82 url(../imagens/architecture.jpg) no-repeat;
-    height: 200px;
+    height: 250px;
     background-size: cover;
     display: block;
 }
